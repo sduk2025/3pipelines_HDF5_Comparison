@@ -1,0 +1,21 @@
+Package: 3_Pipeline_comparison
+Title: Provides functions to run pipelines with input from HDF5 files
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package provides functions to run pipelines with input from HDF5 files, convert outputs to BED format, 
+    and compare variants from multiple pipelines. It also includes tools for summarizing quality metrics, 
+    generating Venn diagrams and UpSet plots, and filtering variants based on user-defined thresholds.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    readr,
+    VennDiagram,
+    UpSetR,
+    rhdf5,
+    optima
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
